@@ -100,3 +100,32 @@ hr {
 input, select {
     vertical-align:middle;
 }
+.headerContainer{
+    grid-area: header;
+}
+.head1{
+   
+    display: inline-block;
+    width: fit-content;
+}
+.header-sidebar{
+    padding: 2rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 30% 30% 30%;
+    grid-auto-rows: auto;
+    grid-template-areas: 
+    "header nav nav nav";
+    
+}
+.navBar{
+    grid-area: nav;
+}
+.searchBar{
+    width: 80%;
+    height: 2.6rem;
+}
+.mainContent{
+    text-align: center;
+    padding-top: 9rem;
+}
