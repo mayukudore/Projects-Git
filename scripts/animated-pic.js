@@ -1,0 +1,7 @@
+
+let pics = ["images/image1.jpg","images/image2.jpg","images/image3.jpg","images/image4.jpg"
+,"images/image1.jpg","images/image1.jpg"
+,"images/image5.jpg", "images/image6.jpg", "images/image7.jpg"];
+
+
+$.backstretch(pics, {duration: 3000, fade: 750});
